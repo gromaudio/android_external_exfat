@@ -8,5 +8,6 @@ LOCAL_SRC_FILES = main.c
 LOCAL_C_INCLUDES += $(LOCAL_PATH) \
 					external/exfat/libexfat \
 					external/fuse/include \
+          external/ntfs-3g/include/fuse-lite \
 					external/fuse/android
 include $(BUILD_STATIC_LIBRARY)
